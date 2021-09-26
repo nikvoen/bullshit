@@ -1,31 +1,36 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <link rel="stylesheet" type="text/css" href="main.css">
     <meta charset="UTF-8">
     <title>Эльдорадо</title>
 </head>
 <body>
-    <a href="index.html"><img src="logo.png" width = 200 px alt="logo"></a>
-    <ul>
-        <a href="index.html">
-            <li>Главная</li>
-        </a>
-        <a href="catalog.html">
-            <li>Каталог</li>
-        </a>
-        <a href="delivery.html">
-            <li>Доставка</li>
-        </a>
-		<a href="contact.html">
-            <li>О нас </li>
-        </a>
-    </ul>
-    <hr>
-    <h1>iPhone 13: скоро в продаже</h1><h1><a href="link1.html">подробнее</a></h1>
-    <h2>Выгодная покупка в рассрочку 30%</h2>
-    <a href="contact.html"><img src="ad.jpg" 
-    alt="контакты" width="500px"> </a>
-    <hr>
-    el@dorado.ru
+    <header class="header">
+        <div class="container">
+            <div class="header__inner">
+                <div><a href="index.html"><img src="logo.png" width = 200 px alt="logo"></a></div>
+
+            <nav class="nav">
+                <a class="nav__link" href="index.html">Главная</a>
+                <a class="nav__link" href="catalog.html">Каталог</a>
+                <a class="nav__link" href="delivery.html">Доставка</a>
+                <a class="nav__link" href="contact.html">Контакты</a>
+            </nav>
+        </div>
+    </header>
+
+    <div class="content">
+        <a href="contact.html"><img src="express.png"></a>
+        <h1>iPhone 13: скоро в продаже</h1>
+        <h2>Выгодная покупка в рассрочку 30%</h2>
+        <a href="contact.html"><img src="ad.jpg" alt="контакты" width="500px"></a>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <a class="nav__link" href="contact.html">el@dorado.ru</a>
+        </div>
+    </header>
 </body>
 </html>

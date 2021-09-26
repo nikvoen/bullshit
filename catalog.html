@@ -1,35 +1,41 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <link rel="stylesheet" type="text/css" href="main.css">
     <meta charset="UTF-8">
     <title>Эльдорадо</title>
 </head>
 <body>
-    <a href="index.html"><img src="logo.png" width = 200 px alt="logo"></a>
-    <ul>
-        <a href="index.html">
-            <li>Главная</li>
-        </a>
-        <a href="catalog.html">
-            <li>Каталог</li>
-        </a>
-        <a href="delivery.html">
-            <li>Доставка</li>
-        </a>
-		<a href="contact.html">
-            <li>О нас</li>
-        </a>
-    </ul>
-    <hr>
-    <h2>Робот-пылесос iRobot Roomba i7+</h2>
+    <header class="header">
+        <div class="container">
+            <div class="header__inner">
+                <div><a href="index.html"><img src="logo.png" width = 200 px alt="logo"></a></div>
+
+            <nav class="nav">
+                <a class="nav__link" href="index.html">Главная</a>
+                <a class="nav__link" href="catalog.html">Каталог</a>
+                <a class="nav__link" href="delivery.html">Доставка</a>
+                <a class="nav__link" href="contact.html">Контакты</a>
+            </nav>
+        </div>
+    </header>
+
+    <div class="content">
+        <h2>Робот-пылесос iRobot Roomba i7+</h2>
     <p></p>
-    <a href="i7.html"><img src="i7+.jpg" 
+    <a href="i7.html"><img class="image" src="i7+.jpg" 
         alt="i7" width="950px"> </a>
     <hr>
     <h2>Электросамокат Xiaomi Mi Pro 2 для Mercedes AMG Petronas F1 (BHR4760GL)</h2>
-    <a href="mi.html"><img src="mi+.jpg" 
+    <a href="mi.html"><img class="image" src="mi+.jpg" 
         alt="mi" width="950px"> </a>
-    <hr>
-    el@dorado.ru
-</body>
-</html>
+    </div>
+
+        <footer class="footer">
+            <div class="container">
+                <a class="nav__link" href="contact.html">el@dorado.ru</a>
+            </div>
+        </header>
+    </body>
+    </html>
+    
