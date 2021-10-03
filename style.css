@@ -1,16 +1,19 @@
 body {
+  font-family: sans-serif;
     margin: 0px;
     color: rgb(0, 0, 0);
     background: rgb(240, 240, 240);
    }
 
-   a {
-       text-decoration: none;
-   }
+   section {
+    margin-top: 80px;
+    margin-bottom: 200px;
+    margin-left: 100px;
+  }
 
-   .out {
-       outline: solid 4px rgb(231, 41, 41);
-   }
+  a {
+    text-decoration: none;
+    }
 
    .container {
         width: 100%;
@@ -18,17 +21,7 @@ body {
         margin: 0 auto;
 }
 
-   .section {
-    font-family: Arial, sans-serif;
-    font-weight: 600;
-    width: 100%;
-    padding-top: 40px;
-    padding-left: 0px;
-    padding-bottom: 80px;
-}
-
    .header {
-       font-family: Arial, sans-serif;
        font-weight: 600;
        background-color: rgb(231, 41, 41);
        width: 100%;
@@ -65,7 +58,6 @@ body {
 
    .footer {
     display: flex;
-    font-family: Arial, sans-serif;
     font-weight: 600;
     background-color: rgb(231, 41, 41);
     width: 100%;
@@ -80,22 +72,17 @@ body {
     padding-bottom: 100px;
 }
 
-section {
-    margin-top: 50px;
-    margin-bottom: 50px;
-  }
-
   .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     width: 400px;
     margin: auto;
     text-align: center;
-    font-family: sans-serif;
   }
 
   .card > img {
 
-    width: 400px;
+    max-width: 400px;
+    height: 300px;
   
   }
 
@@ -129,5 +116,7 @@ section {
   
   .row {
       display: inline-flex;
-      margin: 0 40px;
+      margin-left: 100px;
+      justify-content: space-between;
+      align-items: center;
   }
